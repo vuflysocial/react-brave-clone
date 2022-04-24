@@ -1,0 +1,73 @@
+@import "../../base.scss";
+
+.searchBar {
+    width: 642px;
+    height: 56px;
+
+    .searchBar__form {
+        position: relative;
+        display: flex;
+        margin-bottom: 10px;
+        max-width: inherit;
+        align-items: center;
+        border-radius: 16px;
+        z-index: 3;
+        height: 56px;
+        width: 100%;
+        background-color: #272b36;
+
+        .searchBar__form-wrapper {
+            flex-grow: 1;
+            width: auto;
+            height: 100%;
+            order: 2;
+            position: relative;
+            display: flex;
+
+            input {
+                height: 100%;
+                border: none;
+                outline: none;
+                box-shadow: none;
+                background-color: transparent;
+                border-radius: 0;
+                padding: 8px 16px;
+                width: 100%;
+                font-size: 15.5px;
+                letter-spacing: 0.3px;
+                font-family: 'Roboto';
+                color: #eceef2;
+            }
+
+            button {
+                cursor: pointer;
+                background-color: #272b36;
+                border-top-right-radius: 16px;
+                border-bottom-right-radius: 16px;
+                width: 55px;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                order: 5;
+                z-index: 2;
+                border: none;
+                padding: 0;
+                flex-shrink: 0;
+
+                svg {
+                    fill: currentColor;
+                    color: #bf14a2;
+                }
+
+                &:hover {
+                    background: linear-gradient(302.53deg, #4c54d2 0%, #bf14a2 56.25%, #f73a1c 100%);
+
+                    svg {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
