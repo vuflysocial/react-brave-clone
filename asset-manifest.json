@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-brave-clone/static/css/main.31920c2f.css",
+    "main.js": "/react-brave-clone/static/js/main.8bccb188.js",
+    "static/media/brave-logo.svg": "/react-brave-clone/static/media/brave-logo.cfc9aa0d91fec6acafb98c902c69a567.svg",
+    "static/media/brave-small-logo.svg": "/react-brave-clone/static/media/brave-small-logo.4d1dfc1e92d60b50913ed9b5d0b5bdf9.svg",
+    "index.html": "/react-brave-clone/index.html",
+    "static/media/search-icon.svg": "/react-brave-clone/static/media/search-icon.70002cc57c522644562e3596f8ad5b5b.svg",
+    "main.31920c2f.css.map": "/react-brave-clone/static/css/main.31920c2f.css.map",
+    "main.8bccb188.js.map": "/react-brave-clone/static/js/main.8bccb188.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31920c2f.css",
+    "static/js/main.8bccb188.js"
+  ]
+}
