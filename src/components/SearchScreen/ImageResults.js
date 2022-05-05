@@ -1,13 +1,11 @@
 import React from 'react'
 
 const ImageResults = ({ data }) => {
-    console.log(data, "image");
-    const images = (data.items).map((item) => {
-        console.log(item);
-        return <img src={item.image.thumbnailLink} alt={item.title} />
+    const images = (data.items).map((item, index) => {
+        return <a href={item.link}><img src={item.image.thumbnailLink} alt={item.title} key={`${index}${item.image.height}`} /></a>
     })
     return (
-        <div>{images}</div>
+        <div className="images">{images}</div>
     )
 }
 

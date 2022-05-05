@@ -42,7 +42,7 @@
             padding: 7px 11px 7px 11px;
             font-weight: bold;
 
-            &::after {
+            &.active::after {
                 content: "";
                 background: linear-gradient(305.95deg, #BF14A2 0%, #F73A1C 60%);
                 height: 3px;
@@ -115,6 +115,19 @@
                 text-align: justify;
                 line-height: 20px;
             }
+        }
+    }
+
+    .images {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-auto-flow: row dense;
+        margin: 40px 40px;
+
+        img {
+            width: 200px;
+            height: 200px;
         }
     }
 }
